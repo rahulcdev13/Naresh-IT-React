@@ -6,12 +6,14 @@ import "./index.css";
 // import NestedIterations from "./Components/NestedIterations";
 import Example from "./Components/Example";
 import RegisterDetails from "./Components/RegisterDetails";
+import ParentComponent from "./Components/ParentComponent";
 
 
 function App() {
   return (
     <>
      <Example />
+     <ParentComponent />
      <RegisterDetails />
 
      {/* <Card /> */}
